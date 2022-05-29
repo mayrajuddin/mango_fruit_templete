@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Common css start */
+/* :root{} */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,
+p,
+span,small,
+ol,ul{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    &:hover{
+        text-decoration: none;
+    }
+}
+ul,ol{
+    list-style: none;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.form-control{
+    border-radius: initial;
+}
+.btn:focus{
+    box-shadow: none;
+}
+/* Common css end */
