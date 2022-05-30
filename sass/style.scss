@@ -22,6 +22,7 @@ Table of Content
 
 /* Common css start */
 @import 'common';
+@import 'colors';
 /* Common css end */
 
 // menu section start
@@ -109,9 +110,25 @@ Table of Content
 }
 // banner section end
 
-/* section start */
-
-/* section end */
+/* category section start */
+#catagory{
+    padding: 40px 0;
+    background-color: $seceondry-w-c;
+    .catagory_title{
+        padding: 40px 0;
+        h2{
+            font-size: 32px;
+        }
+        .cat_slide_btn{
+            a{
+                display: inline-block;
+                font-size: 18px;
+                color: $green-type-c;
+            }
+        }
+    }
+}
+/* category section end */
 
 /* footer section start */
 /* footer{} */
