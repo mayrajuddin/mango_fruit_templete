@@ -148,28 +148,8 @@ ul, ol {
   color: #FFC107;
 }
 
-#banner .banner_slider .slider_item .content_right {
-  background-color: #be920e;
-}
-
-/* category section start */
 #catagory {
-  padding: 40px 0;
-  background-color: #fbfbfb;
-}
-
-#catagory .catagory_title {
-  padding: 40px 0;
-}
-
-#catagory .catagory_title h2 {
-  font-size: 32px;
-}
-
-#catagory .catagory_title .cat_slide_btn a {
-  display: inline-block;
-  font-size: 18px;
-  color: #39B27B;
+  background-color: #414141;
 }
 
 /* category section end */

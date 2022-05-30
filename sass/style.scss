@@ -100,30 +100,121 @@ Table of Content
                         color: #FFC107;
                     }
                 }
-                
-            }
-            .content_right{
-                background-color: #be920e;
             }
         }
     }
 }
 // banner section end
-
-/* category section start */
 #catagory{
-    padding: 40px 0;
     background-color: $seceondry-w-c;
+    padding: 30px 0;
     .catagory_title{
-        padding: 40px 0;
+        padding: 20px 0;
         h2{
             font-size: 32px;
+            text-transform: capitalize;
         }
         .cat_slide_btn{
             a{
-                display: inline-block;
-                font-size: 18px;
                 color: $green-type-c;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                line-height: 40px;
+                text-align: center;
+                font-size: 18px;
+                border:1px solid $green-type-c;
+
+            }
+        }
+    }
+    .catagory_item{
+        .popular_cat{
+            height: 397px;
+            background-color: $white-color;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            box-shadow: 0px 5px 12px #efefef; 
+            ul{
+                li{
+                    a{
+                        text-align: center;
+                        font-size: 18px;
+                        color: #000;
+                        text-transform: capitalize;
+                        padding: 18px 0;
+                        margin-bottom: 8px;
+                        transition: all .3s linear;
+                        &:hover{
+                            background-color: $green-type-c;
+                            color: $white-color;
+                        }
+                    }.active{
+                        background-color: $green-type-c;
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+        .product_slider{
+            .slider_item{
+                .card{
+                    text-align: center;
+                    border: none;
+                    box-shadow: 0px 4px 6px #efefef;
+                    border-radius: 4px;
+                    padding-bottom: 24px;
+                    .tle{
+                        background-color: $green-type-c;
+                        padding: 12px 0;
+                        border-radius: 4px 4px  0 0;
+                        h4{
+                            font-size: 18px;
+                            color: $white-color;
+                            text-transform: capitalize;
+                            
+                        }
+                    }
+                    .c_img{
+                        margin: 8px 0;
+                        padding: 0 12px;
+                    }
+                    .p_name{
+                        padding: 0 12px;
+                        h5{
+                            font-size: 16px;
+                            text-transform: capitalize;
+                        }
+                        p{
+                            font-size: 16px;
+                            padding: 8px 0;
+                            text-transform: capitalize;
+                        }
+                        a{
+                            font-size: 14px;
+                            padding: 8px 12px;
+                            background: $yellow-type-color;
+                            text-transform: capitalize;
+                            color: #fff;
+                            border-radius: 3px;
+                            transition: all .3s linear;
+                            &:hover{
+                                background-color: $y-dark-type;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .letest{
+            margin-top: 14px;
+            span{
+                padding: 8px 14px;
+                font-size: 16px;
+                background-color: $yellow-type-color;
+                color: $white-color;
+                display: inline-block;
+                text-transform: capitalize;
             }
         }
     }
