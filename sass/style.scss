@@ -334,19 +334,19 @@ Table of Content
        .service_item{
             padding: 26px 0;
            .service_content{
-                border-right: 1px solid #6c757d;
+                border-right: 1px solid #ddd;
                 display: flex;
                 padding: 26px;
                 align-items: center;
                span{
                    font-size: 55px;
-                   width: 50%;
+                   width: 40%;
                    text-align: center;
                    color: $green-type-c;
                }
                p{
                    font-size: 32px;
-                   width: 50%;
+                   width: 60%;
                    text-align: center;
                    line-height: 38px;
                }
@@ -361,6 +361,10 @@ Table of Content
 #special_pro{
     padding: 60px 0;
     .special_tle{
+        padding: 40px 0;
+        h4{
+            font-size: 24px;
+        }
         .cat_slide_btn{
             a{
                 color: $green-type-c;
@@ -371,13 +375,201 @@ Table of Content
                 text-align: center;
                 font-size: 18px;
                 border:1px solid $green-type-c;
+            }
+            a:first-child{
+                margin-right: 5px;
+            }
+        }
+    }
+    .spcialC_slider{
+        .spC_item{
+            .card{
+                border: none;
+                padding: 0 8px;
+                padding-bottom: 12px;
+                color: $dark-type-c;
+                box-shadow: 0 4px 8px -2px #ddd;
+                >p{
+                    font-size: 20px;
+                    text-align: center;
+                    background: $green-type-c;
+                    margin: 0 30px;
+                    border-radius: 0 0 20px 20px;
+                    margin-bottom: 12px;
+                    padding: 5px 0;
+                    color: #fff;
+                }
+                // .card_img{}
+                .card_content{
+                    padding: 14px 0;
+                    h4{
+                        font-size: 22px;
+                    }
+                    p{
+                        font-size: 18px;
+                        padding: 10px 0;
+                    }
+                    span{
+                        font-size: 16px;
+                        color: #6c757d;
 
+                    }
+                }
+                .order_btn{
+                    align-items: center;
+                    a:first-child{
+                        background-color: $green-type-c;
+                        color: $white-color;
+                        font-size: 18px;
+                        border-radius: 24px;
+                        padding: 8px 20px ;
+                        text-transform: capitalize;
+                    }
+                    a.fvt{
+                        background-color: #ddd;
+                        padding: 8px 8px ;
+                        color: #000;
+                        border-radius: 3px;
+                        font-size: 18px;
+                    }
+                }
             }
         }
     }
 }
 
 // special  product section end
-/* footer section start */
-/* footer{} */
-/* footer section end */
+// contact section start
+#contact{
+    background-color: $green-type-c;
+    padding: 60px 0;
+    color: $white-color;
+    .about{
+        h4{
+            font-size: 32px;
+            text-transform: uppercase;
+            color: $yellow-type-color;
+            padding-bottom: 30px;
+        }
+        article{
+            padding-right: 24px;
+            h5{
+                padding-bottom: 8px ;
+                font-size: 22px;
+            }
+            p{
+                text-align: justify;
+            }
+        }
+    }
+    .our_address{
+        font-family: $font-ppns;
+        h5{
+            padding-bottom: 30px;
+            font-size: 24px;
+            font-family: $font-bn;
+        }
+        address{
+            font-size: 16px;
+            line-height: 34px;
+            text-transform: capitalize;
+        }
+        p{
+            font-size: 16px;
+            text-transform: capitalize;
+        }
+        span{
+            font-size: 16px;
+            padding: 8px 0;
+        }
+    }
+    .info{
+        h5{
+            font-size: 24px;
+            padding-bottom: 30px;
+        }
+        ul{
+            li{
+                a{
+                    padding: 8px 0;
+                    color: $white-color;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .cont{
+        h5{
+            padding-bottom: 30px;
+            font-size: 24px;
+        }
+        .tel{
+            align-items: center;
+            i{
+                font-size: 22px;
+            }
+            a{
+                padding: 0 8px;
+                color: $white-color;
+                letter-spacing: 0.8px;
+                font-size: 18px;
+            }
+        }
+        .chat{
+            padding: 12px 0;
+            a{
+                border: 1px solid #fff;
+                padding: 6px 12px;
+                text-transform: uppercase;
+                transition: all .3s linear;
+                border-radius: 3px;
+                color: $white-color;
+                &:hover{
+                    background-color: $white-color;
+                    color: #414141;
+                }
+            }
+        }
+        .apps{
+            margin: 16px 0;
+            a{
+                padding: 4px 14px;
+                background-color: #414141;
+                color: #fff;
+                font-size: 10px;
+                text-transform: capitalize;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                width: min-content;
+                border-radius: 4px;
+                i{
+                    font-size: 18px;
+                    margin-right: 8px;
+                }
+                &:first-child{
+                    margin-right: 8px;
+                }
+            }
+        }
+        .social{
+            padding: 12px 0;
+            ul{
+                li{
+                    margin-right: 8px;
+                    a{
+                        background-color: $white-color;
+                        color: $green-type-c;
+                        font-size: 22px;
+                        width: 45px;
+                        height: 45px;
+                        line-height: 45px;
+                        border-radius: 6px;
+                        text-align: center;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}
