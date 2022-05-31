@@ -46,7 +46,7 @@ Table of Content
                 a{
                     color: #414141;
                     text-transform: capitalize;
-                    font-size: 16px;
+                    font-size: 18px;
                     transition: all .3s linear;
                     &:hover{
                         color: #39B17B;
@@ -297,7 +297,7 @@ Table of Content
                 background-color: $white-color;
                 padding: 16px;
                 border-radius: 0 0 5px 5px;
-                // box-shadow:  0 5px 0 rgba(57 ,78 ,234 , 10);
+                box-shadow:  0 0 5px 0 #ddd;
                 h4{
                     color: #343a40;
                     font-size: 18px;
@@ -326,6 +326,58 @@ Table of Content
     }
 }
 // weekly new product section end
+// service section start
+#service{
+    padding: 60px 0;
+    .service_card{
+        box-shadow: 0 0 8px 0 #ddd;
+       .service_item{
+            padding: 26px 0;
+           .service_content{
+                border-right: 1px solid #6c757d;
+                display: flex;
+                padding: 26px;
+                align-items: center;
+               span{
+                   font-size: 55px;
+                   width: 50%;
+                   text-align: center;
+                   color: $green-type-c;
+               }
+               p{
+                   font-size: 32px;
+                   width: 50%;
+                   text-align: center;
+                   line-height: 38px;
+               }
+           }.last{
+            border-right: 1px solid transparent;
+           }
+       }
+    }
+}
+// service section end
+// special  product section start
+#special_pro{
+    padding: 60px 0;
+    .special_tle{
+        .cat_slide_btn{
+            a{
+                color: $green-type-c;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                line-height: 40px;
+                text-align: center;
+                font-size: 18px;
+                border:1px solid $green-type-c;
+
+            }
+        }
+    }
+}
+
+// special  product section end
 /* footer section start */
 /* footer{} */
 /* footer section end */

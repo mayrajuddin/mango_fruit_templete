@@ -28,7 +28,7 @@ Table of Content
 /* Common css start */
 /* :root{} */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'SolaimanLipi', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -88,7 +88,7 @@ ul, ol {
 #main_menu nav ul li a {
   color: #414141;
   text-transform: capitalize;
-  font-size: 16px;
+  font-size: 18px;
   -webkit-transition: all .3s linear;
   transition: all .3s linear;
 }
@@ -396,6 +396,8 @@ ul, ol {
   background-color: #fff;
   padding: 16px;
   border-radius: 0 0 5px 5px;
+  -webkit-box-shadow: 0 0 5px 0 #ddd;
+          box-shadow: 0 0 5px 0 #ddd;
 }
 
 #wNew_product .week_slider .week_slide_item .card_content h4 {
@@ -421,6 +423,63 @@ ul, ol {
   text-transform: capitalize;
   letter-spacing: .8px;
   color: #39B27B;
+}
+
+#service {
+  padding: 60px 0;
+}
+
+#service .service_card {
+  -webkit-box-shadow: 0 0 8px 0 #ddd;
+          box-shadow: 0 0 8px 0 #ddd;
+}
+
+#service .service_card .service_item {
+  padding: 26px 0;
+}
+
+#service .service_card .service_item .service_content {
+  border-right: 1px solid #6c757d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#service .service_card .service_item .service_content span {
+  font-size: 55px;
+  width: 50%;
+  text-align: center;
+  color: #39B27B;
+}
+
+#service .service_card .service_item .service_content p {
+  font-size: 32px;
+  width: 50%;
+  text-align: center;
+  line-height: 38px;
+}
+
+#service .service_card .service_item .last {
+  border-right: 1px solid transparent;
+}
+
+#special_pro {
+  padding: 60px 0;
+}
+
+#special_pro .special_tle .cat_slide_btn a {
+  color: #39B27B;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #39B27B;
 }
 
 /* footer section start */
