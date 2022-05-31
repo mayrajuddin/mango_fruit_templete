@@ -23,6 +23,7 @@ Table of Content
 /* Common css start */
 @import 'common';
 @import 'colors';
+@import 'mixins';
 /* Common css end */
 
 // menu section start
@@ -211,7 +212,7 @@ Table of Content
             span{
                 padding: 8px 14px;
                 font-size: 16px;
-                background-color: $yellow-type-color;
+                background-color: $green-type-c;
                 color: $white-color;
                 display: inline-block;
                 text-transform: capitalize;
@@ -220,7 +221,111 @@ Table of Content
     }
 }
 /* category section end */
+// populer product section start
+#populer_product{
+    padding: 30px 0;
+    .catagory_title{
+        padding: 20px 0;
+        h2{
+            font-size: 32px;
+            text-transform: capitalize;
+        }
+        .cat_slide_btn{
+            a{
+                color: $green-type-c;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                line-height: 40px;
+                text-align: center;
+                font-size: 18px;
+                border:1px solid $green-type-c;
 
+            }
+        }
+    }
+    .product_slider{
+        .slider_item{
+            .card{
+                text-align: center;
+                border: none;
+                box-shadow: 0px 4px 6px #efefef;
+                border-radius: 4px;
+                padding-bottom: 24px;
+                @include product_card;
+            }
+        }
+    }
+}
+// populer product section end
+// weekly new product section start
+#wNew_product{
+    background-color: $green-type-c;
+    color: $white-color;
+    padding: 60px 0;
+    .tle{
+        h4{
+            font-size: 24px;
+        }
+    }
+    .week_slide_btn{
+        margin-top: 18px;
+        a{
+            color: $white-color;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            line-height: 40px;
+            text-align: center;
+            font-size: 18px;
+            border:1px solid $white-color;
+            margin-right: 8px;
+
+        }
+    }
+    .week_slider{
+        .week_slide_item{
+            border-radius: 5px;
+            padding: 0 6px;
+            .card_img{
+                border-radius: 5px 5px 0 0;
+                img{
+                    width: 100%;
+                }
+            }
+            .card_content{
+                background-color: $white-color;
+                padding: 16px;
+                border-radius: 0 0 5px 5px;
+                // box-shadow:  0 5px 0 rgba(57 ,78 ,234 , 10);
+                h4{
+                    color: #343a40;
+                    font-size: 18px;
+                    text-transform: capitalize;
+                }
+                p{
+                    color: #6c757d;
+                    font-size: 15px;
+                    padding-top: 8px;
+                }
+                .ratings{
+                    i{
+                        color: $yellow-type-color;
+                        font-size: 13px;
+                    }
+                }
+                span{
+                    font-size: 14px;
+                    font-weight: 500;
+                    text-transform: capitalize;
+                    letter-spacing: .8px;
+                    color: $green-type-c;
+                }
+            }
+        }
+    }
+}
+// weekly new product section end
 /* footer section start */
 /* footer{} */
 /* footer section end */

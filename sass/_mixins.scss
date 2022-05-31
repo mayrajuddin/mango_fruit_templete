@@ -1,0 +1,41 @@
+@mixin product_card{
+    .tle{
+        background-color: $green-type-c;
+        padding: 12px 0;
+        border-radius: 4px 4px  0 0;
+        h4{
+            font-size: 18px;
+            color: $white-color;
+            text-transform: capitalize;
+            
+        }
+    }
+    .c_img{
+        margin: 8px 0;
+        padding: 0 12px;
+    }
+    .p_name{
+        padding: 0 12px;
+        h5{
+            font-size: 16px;
+            text-transform: capitalize;
+        }
+        p{
+            font-size: 16px;
+            padding: 8px 0;
+            text-transform: capitalize;
+        }
+        a{
+            font-size: 14px;
+            padding: 8px 12px;
+            background: $yellow-type-color;
+            text-transform: capitalize;
+            color: #fff;
+            border-radius: 3px;
+            transition: all .3s linear;
+            &:hover{
+                background-color: $y-dark-type;
+            }
+        }
+    }
+}
