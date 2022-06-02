@@ -123,6 +123,15 @@ ul, ol {
   border-radius: initial;
 }
 
+.animate {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: #fff;
+}
+
 #banner .banner_slider .slider_item {
   background: -webkit-gradient(linear, left top, right top, color-stop(50%, #F7F7F7), color-stop(50%, #5EB924));
   background: linear-gradient(to right, #F7F7F7 50%, #5EB924 50%);

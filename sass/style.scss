@@ -27,6 +27,23 @@ Table of Content
 /* Common css end */
 
 // menu section start
+.animate{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: $white-color;
+    // animation: menu-ani .3s linear;
+}
+// @keyframes menu-ani {
+//     0%{
+//         top: -20px;
+//     }
+//     100%{
+//         top: 0;
+//     }
+// }
 #main_menu{
     position: absolute;
     left: 0;
