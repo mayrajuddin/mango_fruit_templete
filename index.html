@@ -17,6 +17,7 @@
 
     <!-- custom css start -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
     <!-- custom css end -->
 
     <!-- main css start -->
@@ -103,8 +104,8 @@
           </div>
           <div class="col-lg-3 text-end">
             <div class="cat_slide_btn">
-              <a href="#"><i class="fa-solid fa-arrow-left"></i></a>
-              <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+              <a href="#" class="prvarrow"><i class="fa-solid fa-arrow-left"></i></a>
+              <a href="#" class="nxtarrow"><i class="fa-solid fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -139,9 +140,9 @@
               </li>
             </ul>
           </div>
-          <div class="col-lg-9 ">
-            <div class="row product_slider ms-2">
-              <div class="slider_item col-lg-3">
+          <div class="col-lg-9">
+            <div class="product_slider">
+              <div class="slider_item px-2">
                 <div class="card">
                   <div class="tle">
                     <h4>২০ টাকা ডিস্কাউন্ট</h4>
@@ -156,7 +157,7 @@
                   </div>
                 </div>
               </div>
-              <div class="slider_item col-lg-3">
+              <div class="slider_item px-2">
                 <div class="card">
                   <div class="tle">
                     <h4>২০ টাকা ডিস্কাউন্ট</h4>
@@ -171,7 +172,7 @@
                   </div>
                 </div>
               </div>
-              <div class="slider_item col-lg-3">
+              <div class="slider_item px-2">
                 <div class="card">
                   <div class="tle">
                     <h4>২০ টাকা ডিস্কাউন্ট</h4>
@@ -186,7 +187,7 @@
                   </div>
                 </div>
               </div>
-              <div class="slider_item col-lg-3">
+              <div class="slider_item px-2">
                 <div class="card">
                   <div class="tle">
                     <h4>২০ টাকা ডিস্কাউন্ট</h4>
@@ -201,9 +202,24 @@
                   </div>
                 </div>
               </div>
-              <div class="letest">
-                <span>বিশেষ অফার </span>
+              <div class="slider_item px-2">
+                <div class="card">
+                  <div class="tle">
+                    <h4>২০ টাকা ডিস্কাউন্ট</h4>
+                  </div>
+                  <div class="c_img">
+                    <img src="images/hadibngga.jpg" alt="hadibngga mango" class="img-fluid">
+                  </div>
+                  <div class="p_name">
+                    <h5>হাড়িভাঙ্গা আম</h5>
+                    <p>৯০ টাকা / কেজি</p>
+                    <a href="#">অর্ডার করুন</a>
+                  </div>
+                </div>
               </div>
+            </div>
+            <div class="letest">
+              <span>বিশেষ অফার </span>
             </div>
           </div>
         </div>
@@ -219,13 +235,13 @@
           </div>
           <div class="col-lg-3 text-end">
             <div class="cat_slide_btn">
-              <a href="#"><i class="fa-solid fa-arrow-left"></i></a>
-              <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+              <a href="#" class="p_prvarrow"><i class="fa-solid fa-arrow-left"></i></a>
+              <a href="#" class="p_nxtarrow"><i class="fa-solid fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
-        <div class="row product_slider justify-content-between">
-          <div class="slider_item col-lg-2">
+        <div class=" p_product_slider">
+          <div class="slider_item px-2">
             <div class="card">
               <div class="tle">
                 <h4>১৫ টাকা ডিস্কাউন্ট</h4>
@@ -240,7 +256,7 @@
               </div>
             </div>
           </div>
-          <div class="slider_item col-lg-2">
+          <div class="slider_item px-2">
             <div class="card">
               <div class="tle">
                 <h4>১৫ টাকা ডিস্কাউন্ট</h4>
@@ -255,7 +271,7 @@
               </div>
             </div>
           </div>
-          <div class="slider_item col-lg-2">
+          <div class="slider_item px-2">
             <div class="card">
               <div class="tle">
                 <h4>১৫ টাকা ডিস্কাউন্ট</h4>
@@ -270,7 +286,7 @@
               </div>
             </div>
           </div>
-          <div class="slider_item col-lg-2">
+          <div class="slider_item px-2">
             <div class="card">
               <div class="tle">
                 <h4>১৫ টাকা ডিস্কাউন্ট</h4>
@@ -285,7 +301,22 @@
               </div>
             </div>
           </div>
-          <div class="slider_item col-lg-2">
+          <div class="slider_item px-2">
+            <div class="card">
+              <div class="tle">
+                <h4>১৫ টাকা ডিস্কাউন্ট</h4>
+              </div>
+              <div class="c_img">
+                <img src="images/hadibngga.jpg" alt="hadibngga mango" class="img-fluid">
+              </div>
+              <div class="p_name">
+                <h5>হাড়িভাঙ্গা আম</h5>
+                <p> 70 টাকা / কেজি </p>
+                <a href="#">অর্ডার করুন</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider_item px-2">
             <div class="card">
               <div class="tle">
                 <h4>১৫ টাকা ডিস্কাউন্ট</h4>
@@ -311,13 +342,13 @@
           <div class="col-lg-3 tle">
             <h4>এ সপ্তাহের নতুন পন্য</h4>
             <div class="week_slide_btn">
-              <a href="#"><i class="fa-solid fa-arrow-left"></i></a>
-              <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+              <a href="#" class="w_prvarrow"><i class="fa-solid fa-arrow-left"></i></a>
+              <a href="#" class="w_nxtarrow"><i class="fa-solid fa-arrow-right"></i></a>
             </div>
           </div>
           <div class="col-lg-9">
-            <div class="row week_slider">
-              <div class="col-lg-3 week_slide_item">
+            <div class="week_slider">
+              <div class="px-2 week_slide_item">
                 <div class="card_img">
                   <img src="images/hadibngga.jpg" alt="Haribhanga" class="img-fluid">
                 </div>
@@ -334,7 +365,7 @@
                   <span>৯৫টাকা কেজি</span>
                 </div>
               </div>
-              <div class="col-lg-3 week_slide_item">
+              <div class="px-2 week_slide_item">
                 <div class="card_img">
                   <img src="images/hadibngga.jpg" alt="Haribhanga" class="img-fluid">
                 </div>
@@ -351,7 +382,7 @@
                   <span>৯৫টাকা কেজি</span>
                 </div>
               </div>
-              <div class="col-lg-3 week_slide_item">
+              <div class="px-2 week_slide_item">
                 <div class="card_img">
                   <img src="images/hadibngga.jpg" alt="Haribhanga" class="img-fluid">
                 </div>
@@ -368,7 +399,24 @@
                   <span>৯৫টাকা কেজি</span>
                 </div>
               </div>
-              <div class="col-lg-3 week_slide_item">
+              <div class="px-2 week_slide_item">
+                <div class="card_img">
+                  <img src="images/hadibngga.jpg" alt="Haribhanga" class="img-fluid">
+                </div>
+                <div class="card_content">
+                  <h4>হাড়িভাঙ্গা আম</h4>
+                  <p>২১ টাকা ডিস্কাউন্ট</p>
+                  <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <span>৯৫টাকা কেজি</span>
+                </div>
+              </div>
+              <div class="px-2 week_slide_item">
                 <div class="card_img">
                   <img src="images/hadibngga.jpg" alt="Haribhanga" class="img-fluid">
                 </div>
@@ -434,13 +482,13 @@
           </div>
           <div class="col-lg-3 text-end">
             <div class="cat_slide_btn">
-              <a href="#"><i class="fa-solid fa-arrow-left"></i></a>
-              <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+              <a href="#" class="s_prvarrow"><i class="fa-solid fa-arrow-left"></i></a>
+              <a href="#" class="s_nxtarrow"><i class="fa-solid fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
-        <div class="row spcialC_slider">
-          <div class="col-lg-3 spC_item">
+        <div class="spcialC_slider">
+          <div class="px-2 spC_item">
             <div class="card">
               <p>৫০ টাকা ডিস্কাউন্ট </p>
               <div class="card_img">
@@ -457,7 +505,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 spC_item">
+          <div class="px-2 spC_item">
             <div class="card">
               <p>৫০ টাকা ডিস্কাউন্ট </p>
               <div class="card_img">
@@ -474,7 +522,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 spC_item">
+          <div class="px-2 spC_item">
             <div class="card">
               <p>৫০ টাকা ডিস্কাউন্ট </p>
               <div class="card_img">
@@ -491,7 +539,24 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 spC_item">
+          <div class="px-2 spC_item">
+            <div class="card">
+              <p>৫০ টাকা ডিস্কাউন্ট </p>
+              <div class="card_img">
+                <img src="images/mustrad-oil.jpg" alt="mustrad-oil" class="img-fluid">
+              </div>
+              <div class="card_content">
+                <h4>খাটি সরিষার তেল</h4>
+                <p>২৫০ টাকা / প্রতি কেজি</p>
+                <span><del>৩০০ টাকা / প্রতি কেজি</del></span>
+              </div>
+              <div class="order_btn d-flex justify-content-between">
+                <a href="">অর্ডার করুন</a> 
+                <a href="#" class="fvt"><i class="fa-solid fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="px-2 spC_item">
             <div class="card">
               <p>৫০ টাকা ডিস্কাউন্ট </p>
               <div class="card_img">
@@ -601,6 +666,7 @@
     <!-- jquary plugin start -->
     <script src="js/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
     <!-- jquary plugin end -->
     
     <!-- custom plugin start -->

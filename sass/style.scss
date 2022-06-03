@@ -28,7 +28,7 @@ Table of Content
 
 // menu section start
 .animate{
-    position: fixed;
+    position: fixed !important;
     left: 0;
     top: 0;
     width: 100%;
@@ -261,7 +261,7 @@ Table of Content
             }
         }
     }
-    .product_slider{
+    .p_product_slider{
         .slider_item{
             .card{
                 text-align: center;
