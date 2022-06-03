@@ -67,11 +67,13 @@ ul, ol {
 /* Common css end */
 .animate {
   position: fixed !important;
-  left: 0;
-  top: 0;
+  left: 0 !important;
+  top: 0 !important;
   width: 100%;
   z-index: 9999;
   background-color: #fff;
+  padding: 14px 0;
+  box-shadow: 0px 0px 10px #ddd;
 }
 
 #main_menu {
@@ -79,6 +81,7 @@ ul, ol {
   left: 0;
   top: 20px;
   width: 100%;
+  transition: all 0.3s linear;
 }
 #main_menu nav a {
   color: #FFC107;
@@ -95,7 +98,7 @@ ul, ol {
   transition: all 0.3s linear;
 }
 #main_menu nav ul li a:hover {
-  color: #39B17B;
+  color: #39B27B;
 }
 #main_menu nav .cart_icon {
   margin-right: 10px;
@@ -108,7 +111,7 @@ ul, ol {
   transition: all 0.3s linear;
 }
 #main_menu nav .cart_icon a:hover {
-  color: #39B17B;
+  color: #fff;
 }
 #main_menu nav form input {
   font-size: 14px;
@@ -116,6 +119,10 @@ ul, ol {
 #main_menu nav form button {
   background-color: #FFC107;
   border-radius: initial;
+}
+
+#main_menu.animate .cart_icon a:hover {
+  color: #39B27B;
 }
 
 #banner .banner_slider .slider_item {
