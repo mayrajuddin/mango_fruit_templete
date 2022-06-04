@@ -1,3 +1,125 @@
+/* Common css start */
+@import 'common';
+@import 'colors';
+@import 'mixins';
+/* Common css end */
+    // Extra extra large device start *xxl*
+// @media(min-width:1400px){}
+    // Extra extra large device end
+// extra large device start *xl*
 @media(min-width:1200px) and (max-width:1399.98px){
-    
+    /* category section start */
+    #catagory{
+        // .catagory_title{}
+        .catagory_item{
+            .popular_cat{
+                height: 404px;
+            }
+            // .product_slider{}
+            // .letest{}
+        }
+    }
+    /* category section end */
+    // service section start
+    #service{
+        padding: 30px 0;
+        .service_card{
+           .service_item{
+               .service_content{
+                   p{
+                       font-size: 26px;
+                   }
+               }
+           }
+        }
+    }
+    // service section end
+    // special  product section start
+    #special_pro{
+        padding: 30px 0;
+        .special_tle{
+            padding: 40px 0;
+        }
+        // .spcialC_slider{}
+    }
+    // special  product section end
+    // contact section start
+    #contact{
+        padding: 40px 0;
+    }
+    // contact section end
 }
+// extra large device end
+// large device start *lg*
+@media (min-width:992px) and (max-width:1199.98px){
+    /* category section start */
+    #catagory{
+        .catagory_title{
+            padding: 10px 0 40px 0;
+        }
+        .catagory_item{
+            .popular_cat{
+                 height: 370px;
+                ul{
+                    li{
+                        a{
+                            padding: 13px 0;
+                        }
+                    }
+                }
+            }
+                // .product_slider{}
+                // .letest{}
+        }
+    }
+    /* category section end */
+    // populer product section start
+    #populer_product{
+        .catagory_title{
+            padding: 0 0 40px 0;
+        }
+    }
+    // populer product section end
+    // service section start
+    #service{
+        padding: 30px 0;
+        .service_card{
+           .service_item{
+               .service_content{
+                   padding: 20px;
+                   span{
+                       font-size: 50px;
+                   }
+                   p{
+                       font-size: 22px;
+                   }
+               }
+           }
+        }
+    }
+    // service section end
+    // special  product section start
+    #special_pro{
+        padding: 30px 0 40px 0;
+        .special_tle{
+            padding: 0 0 40px 0;
+        }
+        // .spcialC_slider{}
+    }
+    // special  product section end
+    // contact section start
+    #contact{
+        padding: 40px 0;
+    }
+    // contact section end
+}
+// large device end
+// medium device start *md*
+@media (min-width:768px) and (max-width:991.98px){}
+// medium device end
+// small device start *sm*
+@media (min-width:576px) and (max-width:767.98px){}
+// small device end
+// extra small device start
+@media(max-width:575.98px){}
+// extra small device end

@@ -53,6 +53,7 @@ ul, ol {
 
 .form-control:focus {
   box-shadow: none;
+  border-color: #ddd;
 }
 
 .form-control {
@@ -89,7 +90,10 @@ ul, ol {
   text-transform: uppercase;
 }
 #main_menu nav button {
-  color: #fff;
+  color: #FFC107;
+}
+#main_menu nav button:focus {
+  box-shadow: none;
 }
 #main_menu nav ul li a {
   color: #414141;
@@ -119,6 +123,7 @@ ul, ol {
 #main_menu nav form button {
   background-color: #FFC107;
   border-radius: initial;
+  color: #343a40;
 }
 
 #main_menu.animate .cart_icon a:hover {

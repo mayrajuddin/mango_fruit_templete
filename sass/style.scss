@@ -59,7 +59,10 @@ Table of Content
             text-transform: uppercase;
         }
         button{
-            color: #fff;
+            color: $yellow-type-color;
+            &:focus{
+                box-shadow: none;
+            }
         }
         ul{
             li{
@@ -94,6 +97,7 @@ Table of Content
             button{
                 background-color: #FFC107;
                 border-radius: initial;
+                color: $dark-type-c;
             }
         }
     }

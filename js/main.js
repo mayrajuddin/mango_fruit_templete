@@ -8,6 +8,12 @@ $(function(){
             $('#main_menu').removeClass('animate');
         }
     })
+    $('.banner_slider').slick({
+        slidesToShow : 1,
+        arrows : false,
+        autoplay: true,
+        autoplaySpeed: 2000
+    })
     $('.product_slider').slick({
         slidesToShow: 4,
         prevArrow : $('.prvarrow'),
