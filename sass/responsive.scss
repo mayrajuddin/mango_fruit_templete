@@ -115,7 +115,46 @@
 }
 // large device end
 // medium device start *md*
-@media (min-width:768px) and (max-width:991.98px){}
+@media (min-width:768px) and (max-width:991.98px){
+    // nav section start
+    #main_menu{
+        nav{
+            #menu{
+                margin-top: 20px;
+                ul{
+                    li{
+
+                        a{
+                            min-width: 300px;
+                            display: inline-block;
+                            background-color: $white-color;
+                            text-align: center;
+                            border-bottom: 1px solid #efefef;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+    // nav section end
+    // banner section start
+    #banner{
+        .banner_slider{
+            .slider_item{
+                .banner_img{
+                    width: 320px;
+                }
+                .content_left{
+                    p{
+                        font-size: 28px;
+                    }
+                }
+            }
+        }
+    }
+    // banner section end
+}
 // medium device end
 // small device start *sm*
 @media (min-width:576px) and (max-width:767.98px){}

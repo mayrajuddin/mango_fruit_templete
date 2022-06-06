@@ -36,16 +36,16 @@ Table of Content
     background-color: $white-color;
     padding: 14px 0;
     box-shadow: 0px 0px 10px #ddd;
-    // animation: menu-ani .3s linear;
+    animation: menu-ani .3s linear;
 }
-// @keyframes menu-ani {
-//     0%{
-//         top: -20px;
-//     }
-//     100%{
-//         top: 0;
-//     }
-// }
+@keyframes menu-ani {
+    0%{
+        top: -20px;
+    }
+    100%{
+        top: 0;
+    }
+}
 #main_menu{
     position: absolute;
     left: 0;

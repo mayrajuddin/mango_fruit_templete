@@ -110,4 +110,23 @@ ul, ol {
   #contact {
     padding: 40px 0;
   }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #main_menu nav #menu {
+    margin-top: 20px;
+  }
+  #main_menu nav #menu ul li a {
+    min-width: 300px;
+    display: inline-block;
+    background-color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #efefef;
+  }
+
+  #banner .banner_slider .slider_item .banner_img {
+    width: 320px;
+  }
+  #banner .banner_slider .slider_item .content_left p {
+    font-size: 28px;
+  }
 }/*# sourceMappingURL=responsive.css.map */
