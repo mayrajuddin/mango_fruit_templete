@@ -137,11 +137,15 @@
             }
         }
     }
+    #main_menu.animate{
+        padding: 10px 0;
+    }
     // nav section end
     // banner section start
     #banner{
         .banner_slider{
             .slider_item{
+                height: 340px;
                 .banner_img{
                     width: 320px;
                 }
@@ -154,6 +158,112 @@
         }
     }
     // banner section end
+       /* category section start */
+    #catagory{
+        padding: 26px 0;
+        .catagory_item{
+            .popular_cat{
+                 height: 370px;
+                ul{
+                    li{
+                        a{
+                            padding: 13px 0;
+                        }
+                    }
+                }
+            }
+                // .product_slider{}
+                // .letest{}
+        }
+    }
+    /* category section end */
+    // populer product section end
+    #populer_product{
+        padding: 26px 0;
+        .catagory_title{
+            padding: 10px 0 24px 0;
+        }
+        // .p_product_slider{}
+    }
+    // populer product section end 
+    // weekly new product section start
+    #wNew_product{
+        padding: 26px 0;
+        .tle{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            h4{
+                width: 50%;
+            }
+            .week_slide_btn{
+                width: 50%;
+                margin-top: 0;
+                text-align: right;
+            }
+        }
+    }
+    // weekly new product section end
+    // service section end
+    #service{
+        padding: 26px 0;
+        .service_card{
+            .row{
+                align-items: center;
+            }
+            .service_item{
+                padding: 20px 0;
+                .service_content{
+                    padding: 0 5px;
+                    span{
+                        font-size: 38px;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    // service section end
+    // special  product section start{
+    #special_pro{
+        padding: 26px 0;
+        .special_tle{
+            padding: 10px 0 24px 0;
+        }
+    }
+    // special  product section end
+    // contact section start
+    #contact{
+        padding: 26px 0;
+        .about{
+            article{
+                // padding-right: 0;
+                p{
+                    font-size: 14px;
+                    line-height: 28px;
+                }
+            }
+        }
+        .info,.cont{
+            margin-top: 24px;
+            h5{
+                padding-bottom: 20px;
+            }
+        }
+        .info{
+            ul{
+                li{
+                    a{
+                        padding: 5px 0;
+                    }
+                }
+            }
+        }
+    }
+    // contact section end
 }
 // medium device end
 // small device start *sm*

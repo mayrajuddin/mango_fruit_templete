@@ -123,10 +123,97 @@ ul, ol {
     border-bottom: 1px solid #efefef;
   }
 
+  #main_menu.animate {
+    padding: 10px 0;
+  }
+
+  #banner .banner_slider .slider_item {
+    height: 340px;
+  }
   #banner .banner_slider .slider_item .banner_img {
     width: 320px;
   }
   #banner .banner_slider .slider_item .content_left p {
     font-size: 28px;
+  }
+
+  /* category section start */
+  #catagory {
+    padding: 26px 0;
+  }
+  #catagory .catagory_item .popular_cat {
+    height: 370px;
+  }
+  #catagory .catagory_item .popular_cat ul li a {
+    padding: 13px 0;
+  }
+
+  /* category section end */
+  #populer_product {
+    padding: 26px 0;
+  }
+  #populer_product .catagory_title {
+    padding: 10px 0 24px 0;
+  }
+
+  #wNew_product {
+    padding: 26px 0;
+  }
+  #wNew_product .tle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  #wNew_product .tle h4 {
+    width: 50%;
+  }
+  #wNew_product .tle .week_slide_btn {
+    width: 50%;
+    margin-top: 0;
+    text-align: right;
+  }
+
+  #service {
+    padding: 26px 0;
+  }
+  #service .service_card .row {
+    align-items: center;
+  }
+  #service .service_card .service_item {
+    padding: 20px 0;
+  }
+  #service .service_card .service_item .service_content {
+    padding: 0 5px;
+  }
+  #service .service_card .service_item .service_content span {
+    font-size: 38px;
+  }
+  #service .service_card .service_item .service_content p {
+    font-size: 18px;
+  }
+
+  #special_pro {
+    padding: 26px 0;
+  }
+  #special_pro .special_tle {
+    padding: 10px 0 24px 0;
+  }
+
+  #contact {
+    padding: 26px 0;
+  }
+  #contact .about article p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  #contact .info, #contact .cont {
+    margin-top: 24px;
+  }
+  #contact .info h5, #contact .cont h5 {
+    padding-bottom: 20px;
+  }
+  #contact .info ul li a {
+    padding: 5px 0;
   }
 }/*# sourceMappingURL=responsive.css.map */
