@@ -25,15 +25,12 @@ $(function(){
                 slidesToShow: 3
               }
             },
-            // {
-            //   breakpoint: 480,
-            //   settings: {
-            //     arrows: false,
-            //     centerMode: true,
-            //     centerPadding: '40px',
-            //     slidesToShow: 1
-            //   }
-            // }
+            {
+              breakpoint: 577,
+              settings: {
+                slidesToShow: 2
+              }
+            }
         ]
     })
     $('.p_product_slider').slick({
@@ -45,6 +42,12 @@ $(function(){
               breakpoint: 769,
               settings: {
                 slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 577,
+              settings: {
+                slidesToShow: 2
               }
             }
         ]
@@ -59,6 +62,12 @@ $(function(){
               settings: {
                 slidesToShow: 3
               }
+            },
+            {
+              breakpoint: 577,
+              settings: {
+                slidesToShow: 2
+              }
             }
         ]
     })
@@ -71,6 +80,12 @@ $(function(){
               breakpoint: 769,
               settings: {
                 slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 577,
+              settings: {
+                slidesToShow: 2
               }
             }
         ]

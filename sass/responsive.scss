@@ -240,7 +240,6 @@
         padding: 26px 0;
         .about{
             article{
-                // padding-right: 0;
                 p{
                     font-size: 14px;
                     line-height: 28px;
@@ -267,7 +266,116 @@
 }
 // medium device end
 // small device start *sm*
-@media (min-width:576px) and (max-width:767.98px){}
+@media (min-width:576px) and (max-width:767.98px){
+    // banner section start
+    #banner{
+        .banner_slider{
+            .slider_item{
+                height: 300px;
+                .banner_img{
+                    width: 180px;
+                }
+                .content_left{
+                    padding-right: 24px;
+                    p{
+                        font-size: 22px;
+                        padding-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+    // banner section end
+    // weekly new product section start
+    #wNew_product{
+        padding: 26px 0;
+        .tle{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            h4{
+                width: 50%;
+            }
+            .week_slide_btn{
+                width: 50%;
+                margin-top: 0;
+                text-align: right;
+            }
+        }
+    }
+    // weekly new product section end
+    // service section end
+    #service{
+        padding: 26px 0;
+        .service_card{
+            .row{
+                align-items: center;
+            }
+            .service_item{
+                padding: 16px 0;
+                .service_content{
+                    padding: 0 5px;
+                    span{
+                        font-size: 32px;
+                        width: 30%;
+                    }
+                    p{
+                        font-size: 18px;
+                        width: 70%;
+                    }
+                }
+            }
+            // .service_item:nth-child(-n + 2){
+            //     // border-bottom: 1px solid #ddd;
+            //     box-shadow: 0 0 3px 0 #ddd inset;
+            // }
+        }
+    }
+    // service section end
+    // special  product section start{
+    #special_pro{
+        padding: 26px 0;
+        .special_tle{
+         padding: 10px 0 24px 0;
+        }
+    }
+    // special  product section end
+    // contact section start
+    #contact{
+        padding: 26px 0;
+        .about{
+            article{
+                p{
+                    font-size: 14px;
+                    line-height: 28px;
+                }
+            }
+        }
+        .our_address{
+            address{
+                font-size: 14px;
+                line-height: 30px;
+            }
+        }
+        .info,.cont{
+            margin-top: 24px;
+            h5{
+                padding-bottom: 20px;
+            }
+        }
+        .info{
+            ul{
+                li{
+                    a{
+                        padding: 5px 0;
+                    }
+                }
+            }
+        }
+    }
+    // contact section end
+}
 // small device end
 // extra small device start
 @media(max-width:575.98px){}

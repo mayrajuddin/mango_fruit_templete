@@ -216,4 +216,86 @@ ul, ol {
   #contact .info ul li a {
     padding: 5px 0;
   }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #banner .banner_slider .slider_item {
+    height: 300px;
+  }
+  #banner .banner_slider .slider_item .banner_img {
+    width: 180px;
+  }
+  #banner .banner_slider .slider_item .content_left {
+    padding-right: 24px;
+  }
+  #banner .banner_slider .slider_item .content_left p {
+    font-size: 22px;
+    padding-right: 20px;
+  }
+
+  #wNew_product {
+    padding: 26px 0;
+  }
+  #wNew_product .tle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  #wNew_product .tle h4 {
+    width: 50%;
+  }
+  #wNew_product .tle .week_slide_btn {
+    width: 50%;
+    margin-top: 0;
+    text-align: right;
+  }
+
+  #service {
+    padding: 26px 0;
+  }
+  #service .service_card .row {
+    align-items: center;
+  }
+  #service .service_card .service_item {
+    padding: 16px 0;
+  }
+  #service .service_card .service_item .service_content {
+    padding: 0 5px;
+  }
+  #service .service_card .service_item .service_content span {
+    font-size: 32px;
+    width: 30%;
+  }
+  #service .service_card .service_item .service_content p {
+    font-size: 18px;
+    width: 70%;
+  }
+
+  #special_pro {
+    padding: 26px 0;
+  }
+  #special_pro .special_tle {
+    padding: 10px 0 24px 0;
+  }
+
+  #contact {
+    padding: 26px 0;
+  }
+  #contact .about article p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  #contact .our_address address {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  #contact .info, #contact .cont {
+    margin-top: 24px;
+  }
+  #contact .info h5, #contact .cont h5 {
+    padding-bottom: 20px;
+  }
+  #contact .info ul li a {
+    padding: 5px 0;
+  }
 }/*# sourceMappingURL=responsive.css.map */

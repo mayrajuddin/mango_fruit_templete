@@ -359,12 +359,12 @@ ul, ol {
 }
 #wNew_product .week_slider .week_slide_item .card_content h4 {
   color: #343a40;
-  font-size: 18px;
+  font-size: 22px;
   text-transform: capitalize;
 }
 #wNew_product .week_slider .week_slide_item .card_content p {
   color: #6c757d;
-  font-size: 15px;
+  font-size: 18px;
   padding-top: 8px;
 }
 #wNew_product .week_slider .week_slide_item .card_content .ratings i {
