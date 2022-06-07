@@ -326,10 +326,6 @@
                     }
                 }
             }
-            // .service_item:nth-child(-n + 2){
-            //     // border-bottom: 1px solid #ddd;
-            //     box-shadow: 0 0 3px 0 #ddd inset;
-            // }
         }
     }
     // service section end
@@ -378,5 +374,305 @@
 }
 // small device end
 // extra small device start
-@media(max-width:575.98px){}
+@media(max-width:575.98px){
+    // nav section start
+    #main_menu{
+        top: 16px;
+        nav{
+            a{
+                font-size: 16px;
+            }
+            button{
+                span{
+                    font-size: 16px;
+                }
+            }
+            #menu{
+                margin-top: 20px;
+                ul{
+                    li{
+    
+                        a{
+                            min-width: 300px;
+                            display: inline-block;
+                            background-color: $white-color;
+                            text-align: center;
+                            border-bottom: 1px solid #efefef;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #main_menu.animate{
+        padding: 10px 0;
+    }
+    // nav section end
+    // banner section start
+    #banner{
+        .banner_slider{
+            .slider_item{
+                height: 220px;
+                .banner_img{
+                    width: 120px;
+                }
+                .content_left{
+                    padding-right: 18px;
+                    width: 50%;
+                    p{
+                        font-size: 14px;
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+    // banner section end
+    #catagory{
+        padding: 20px 0;
+        .catagory_title{
+            padding: 16px 0;
+            h2{
+                font-size: 18px;
+            }
+            .cat_slide_btn{
+                a{
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    font-size: 12px;
+    
+                }
+            }
+        }
+        .catagory_item{
+            .product_slider{
+                .slider_item{
+                    .card{
+                        padding-bottom: 18px;
+                        width: 85%;
+                        margin: 0 auto;
+                        .tle{
+                            padding: 10px 0;
+                            border-radius: 4px 4px  0 0;
+                            h4{
+                                font-size: 14px;
+                            }
+                        }
+                        .c_img{
+                            margin: 6px 0;
+                            padding: 0 8px;
+                            img{
+                                display: inline-block;
+                            }
+                        }
+                        .p_name{
+                            padding: 0 10px;
+                            h5{
+                                font-size: 15px;
+                            }
+                            p{
+                                font-size: 14px;
+                                padding: 8px 0;
+                            }
+                            a{
+                                font-size: 14px;
+                                padding: 8px 12px;
+                            }
+                        }
+                    }
+                }
+            }
+            .letest{
+                margin-top: 14px;
+                span{
+                    padding: 7px 10px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    /* category section end */
+    // populer product section start
+    #populer_product{
+        padding: 20px 0;
+        .catagory_title{
+            padding: 16px 0;
+            h2{
+                font-size: 18px;
+            }
+            .cat_slide_btn{
+                a{
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    font-size: 12px;
+
+                }
+            }
+        }
+        .p_product_slider{
+            .slider_item{
+                .card{
+                    padding-bottom: 18px;
+                    width: 85%;
+                    margin: 0 auto;
+                    .tle{
+                        padding: 10px 0;
+                        border-radius: 4px 4px  0 0;
+                        h4{
+                            font-size: 14px;
+                        }
+                    }
+                    .c_img{
+                        margin: 6px 0;
+                        padding: 0 8px;
+                        img{
+                            display: inline-block;
+                        }
+                    }
+                    .p_name{
+                        padding: 0 10px;
+                        h5{
+                            font-size: 15px;
+                        }
+                        p{
+                            font-size: 14px;
+                            padding: 8px 0;
+                        }
+                        a{
+                            font-size: 14px;
+                            padding: 8px 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // populer product section end
+    // weekly new product section start
+    #wNew_product{
+        padding: 20px 0;
+        .tle{
+            display: flex;
+            align-items: center;
+            padding: 12px 16px;
+            h4{
+                width: 50%;
+                font-size: 18px;
+            }
+            .week_slide_btn{
+                width: 50%;
+                margin-top: 0;
+                text-align: right;
+                a{
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    font-size: 12px;
+    
+                }
+            }
+        }
+        .week_slider{
+            .week_slide_item{
+                margin-top: 10px;
+                .card{
+                    width: 85%;
+                    margin: 0 auto;
+                    background-clip: initial;
+                    border: none;
+                }
+            }
+        }
+    }
+    // weekly new product section end
+    // service section start
+    #service{
+        padding: 20px 0;
+        .service_card{
+            box-shadow: none;
+            .row{
+                width: 85%;
+                margin: 0 auto;
+                box-shadow: 0 0 8px 0 #ddd;
+            }
+            .service_item{
+                padding: 14px 0;
+                border-bottom: 1px solid #efefef;
+                .service_content{
+                        border-right: none;
+                        padding: 16px;
+                    span{
+                        font-size: 34px;
+                    }
+                    p{
+                        font-size: 14px;
+                        width: 60%;
+                        text-align: center;
+                        line-height: 38px;
+                    }
+                }
+            }
+        }
+    }
+    // service section end
+    // special  product section start{
+        #special_pro{
+            padding: 20px 0;
+            .special_tle{
+                padding: 16px 0;
+                h4{
+                    font-size: 18px;
+                }
+                .cat_slide_btn{
+                    a{
+                        width: 30px;
+                        height: 30px;
+                        line-height: 30px;
+                        font-size: 12px;
+    
+                    }
+                }
+            }
+            .spcialC_slider{
+                margin-top: 10px;
+                .spC_item{
+                    .card{
+                        width: 85%;
+                        margin: 0 auto;
+                        p{
+                            font-size: 18px;
+                        }
+                        .card_content{
+                            h4{
+                                font-size: 22px;
+                            }
+                            p{
+                                font-size: 18px;
+                            }
+                            span{
+                                font-size: 14px;
+                            }
+                        }
+                        .order_btn{
+                            a:first-child{
+                                font-size: 16px;
+                                border-radius: 19px;
+                                padding: 7px 16px;
+                            }
+                            a.fvt{
+                                background-color: #ddd;
+                                padding: 5px 8px;
+                                color: #000;
+                                border-radius: 3px;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        // special  product section end
+}
 // extra small device end

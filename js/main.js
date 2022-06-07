@@ -30,6 +30,12 @@ $(function(){
               settings: {
                 slidesToShow: 2
               }
+            },
+            {
+              breakpoint: 321,
+              settings: {
+                slidesToShow: 1
+              }
             }
         ]
     })
@@ -48,6 +54,12 @@ $(function(){
               breakpoint: 577,
               settings: {
                 slidesToShow: 2
+              }
+            },
+            {
+              breakpoint: 321,
+              settings: {
+                slidesToShow: 1
               }
             }
         ]
@@ -68,6 +80,12 @@ $(function(){
               settings: {
                 slidesToShow: 2
               }
+            },
+            {
+              breakpoint: 321,
+              settings: {
+                slidesToShow: 1
+              }
             }
         ]
     })
@@ -86,6 +104,12 @@ $(function(){
               breakpoint: 577,
               settings: {
                 slidesToShow: 2
+              }
+            },
+            {
+              breakpoint: 321,
+              settings: {
+                slidesToShow: 1
               }
             }
         ]
