@@ -618,61 +618,110 @@
     }
     // service section end
     // special  product section start{
-        #special_pro{
-            padding: 20px 0;
-            .special_tle{
-                padding: 16px 0;
-                h4{
-                    font-size: 18px;
-                }
-                .cat_slide_btn{
-                    a{
-                        width: 30px;
-                        height: 30px;
-                        line-height: 30px;
-                        font-size: 12px;
-    
-                    }
+    #special_pro{
+        padding: 20px 0;
+        .special_tle{
+            padding: 16px 0;
+            h4{
+                font-size: 18px;
+            }
+            .cat_slide_btn{
+                a{
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    font-size: 12px;
                 }
             }
-            .spcialC_slider{
-                margin-top: 10px;
-                .spC_item{
-                    .card{
-                        width: 85%;
-                        margin: 0 auto;
+        }
+        .spcialC_slider{
+            margin-top: 10px;
+            .spC_item{
+                .card{
+                    width: 85%;
+                    margin: 0 auto;
+                    p{
+                        font-size: 18px;
+                    }
+                    .card_content{
+                        h4{
+                            font-size: 22px;
+                        }
                         p{
                             font-size: 18px;
                         }
-                        .card_content{
-                            h4{
-                                font-size: 22px;
-                            }
-                            p{
-                                font-size: 18px;
-                            }
-                            span{
-                                font-size: 14px;
-                            }
+                        span{
+                            font-size: 14px;
                         }
-                        .order_btn{
-                            a:first-child{
-                                font-size: 16px;
-                                border-radius: 19px;
-                                padding: 7px 16px;
-                            }
-                            a.fvt{
-                                background-color: #ddd;
-                                padding: 5px 8px;
-                                color: #000;
-                                border-radius: 3px;
-                                font-size: 16px;
-                            }
+                    }
+                    .order_btn{
+                        a:first-child{
+                            font-size: 16px;
+                            border-radius: 19px;
+                            padding: 7px 16px;
+                        }
+                        a.fvt{
+                            padding: 5px 8px;
+                            font-size: 16px;
                         }
                     }
                 }
             }
         }
-        // special  product section end
+    }
+    // special  product section end
+    // contact section start
+    #contact{
+        padding: 20px 0;
+        .about{
+            article{
+                p{
+                    font-size: 14px;
+                    line-height: 28px;
+                }
+            }
+        }
+        .our_address{
+            h5{
+                font-size: 18px;
+                padding-bottom: 20px;
+            }
+            address{
+                font-size: 12px;
+                line-height: 30px;
+            }
+            p,span{
+                font-size: 14px;
+            }
+        }
+        .info,.cont{
+            margin-top: 24px;
+            h5{
+                padding-bottom: 20px;
+            }
+        }
+        .info{
+            h5{
+                font-size: 18px;
+            }
+            ul{
+                li{
+                    a{
+                        padding: 4px 0;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .cont{
+            h5{
+                font-size: 18px;
+            }
+            .tel{
+                font-size: 14px;
+            }
+        }
+    }
+    // contact section end
 }
 // extra small device end

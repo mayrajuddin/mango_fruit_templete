@@ -320,6 +320,10 @@ Table of Content
         .week_slide_item{
             border-radius: 5px;
             padding: 0 6px;
+            .card{
+                background-clip: initial;
+                border: none;
+            }
             .card_img{
                 border-radius: 5px 5px 0 0;
                 img{

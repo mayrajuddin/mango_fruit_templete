@@ -547,10 +547,45 @@ ul, ol {
     padding: 7px 16px;
   }
   #special_pro .spcialC_slider .spC_item .card .order_btn a.fvt {
-    background-color: #ddd;
     padding: 5px 8px;
-    color: #000;
-    border-radius: 3px;
     font-size: 16px;
+  }
+
+  #contact {
+    padding: 20px 0;
+  }
+  #contact .about article p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  #contact .our_address h5 {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  #contact .our_address address {
+    font-size: 12px;
+    line-height: 30px;
+  }
+  #contact .our_address p, #contact .our_address span {
+    font-size: 14px;
+  }
+  #contact .info, #contact .cont {
+    margin-top: 24px;
+  }
+  #contact .info h5, #contact .cont h5 {
+    padding-bottom: 20px;
+  }
+  #contact .info h5 {
+    font-size: 18px;
+  }
+  #contact .info ul li a {
+    padding: 4px 0;
+    font-size: 14px;
+  }
+  #contact .cont h5 {
+    font-size: 18px;
+  }
+  #contact .cont .tel {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=responsive.css.map */

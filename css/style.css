@@ -345,6 +345,10 @@ ul, ol {
   border-radius: 5px;
   padding: 0 6px;
 }
+#wNew_product .week_slider .week_slide_item .card {
+  background-clip: initial;
+  border: none;
+}
 #wNew_product .week_slider .week_slide_item .card_img {
   border-radius: 5px 5px 0 0;
 }
