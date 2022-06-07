@@ -20,19 +20,19 @@ $(function(){
         nextArrow: $('.nxtarrow'),
         responsive: [
             {
-              breakpoint: 769,
+              breakpoint: 992,
               settings: {
                 slidesToShow: 3
               }
             },
             {
-              breakpoint: 577,
+              breakpoint: 768,
               settings: {
                 slidesToShow: 2
               }
             },
             {
-              breakpoint: 321,
+              breakpoint: 421,
               settings: {
                 slidesToShow: 1
               }
@@ -45,19 +45,19 @@ $(function(){
         nextArrow: $('.p_nxtarrow'),
         responsive: [
             {
-              breakpoint: 769,
+              breakpoint: 992,
               settings: {
                 slidesToShow: 3
               }
             },
             {
-              breakpoint: 577,
+              breakpoint: 768,
               settings: {
                 slidesToShow: 2
               }
             },
             {
-              breakpoint: 321,
+              breakpoint: 421,
               settings: {
                 slidesToShow: 1
               }
@@ -70,19 +70,19 @@ $(function(){
         nextArrow: $('.w_nxtarrow'),
         responsive: [
             {
-              breakpoint: 769,
+              breakpoint: 992,
               settings: {
                 slidesToShow: 3
               }
             },
             {
-              breakpoint: 577,
+              breakpoint: 768,
               settings: {
                 slidesToShow: 2
               }
             },
             {
-              breakpoint: 321,
+              breakpoint: 421,
               settings: {
                 slidesToShow: 1
               }
@@ -95,19 +95,19 @@ $(function(){
         nextArrow: $('.s_nxtarrow'),
         responsive: [
             {
-              breakpoint: 769,
+              breakpoint: 992,
               settings: {
                 slidesToShow: 3
               }
             },
             {
-              breakpoint: 577,
+              breakpoint: 768,
               settings: {
                 slidesToShow: 2
               }
             },
             {
-              breakpoint: 321,
+              breakpoint: 421,
               settings: {
                 slidesToShow: 1
               }

@@ -529,8 +529,10 @@ ul, ol {
     width: 85%;
     margin: 0 auto;
   }
-  #special_pro .spcialC_slider .spC_item .card p {
+  #special_pro .spcialC_slider .spC_item .card > p {
     font-size: 18px;
+    margin: 0 10px;
+    margin-bottom: 6px;
   }
   #special_pro .spcialC_slider .spC_item .card .card_content h4 {
     font-size: 22px;
